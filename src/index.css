@@ -1,0 +1,32 @@
+#root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --primary: #2b4162;
+  --secondary: #385f71;
+  --base: #f5f0f6;
+  --accent: #d7b377;
+}
+
+* {
+  min-width: 0;
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+
+h1,
+h2 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
